@@ -135,6 +135,7 @@ body {
 
     #image-component {
         width: 50%;
+        background: var(--LightGrayishBlue);
     }
 
     #text-component {

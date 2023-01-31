@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/AmulDoodh/article-preview-component)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://amuldoodh.github.io/article-preview-component/)
 
 ## My process
 
