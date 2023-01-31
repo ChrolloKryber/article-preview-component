@@ -25,8 +25,6 @@ body {
     font-family: 'Manrope';
 }
 
-
-
 .card {
     width: 90%;
     max-width: 450px;
@@ -39,7 +37,7 @@ body {
     position: relative;
 }
 
-.drawer-image   {
+.drawer-image {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -124,24 +122,30 @@ body {
 
 @media (min-width:768px) {
     .card {
-        max-width: 50%;
+        max-width: 80%;
+        width: 1200px;
         flex-direction: row;
         height: auto;
         justify-content: space-between;
     }
 
-    #image-component {
-        width: 45%;
+    #heading {
+        font-size: 1.6rem;
     }
-    
+
+    #image-component {
+        width: 50%;
+    }
+
     #text-component {
-        width: 55%;
+        padding-top: 0;
+        margin-top: 50px;
+        width: 48%;
         height: 100%;
-        padding-left: 5%;
     }
 
     .drawer-image {
-        height: 100fr;
+        display: block;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
@@ -152,10 +156,22 @@ body {
     }
 
     .footer {
-        height: 30px;
-        width: 55%;
-        bottom: 0;
+        height: auto;
+        width: 20%;
+        bottom: 45%;
         right: 0;
-        border-bottom-left-radius: 0;
+        border-radius: 5px;
+
+    }
+
+    .share-img {
+        padding: 0;
+    }
+
+    .left {
+        padding: 10px 10px ;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 }
