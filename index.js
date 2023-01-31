@@ -3,7 +3,5 @@ $(document).ready(function () {
     $('.share').click(function (e) { 
         e.preventDefault();
         $('.footer').toggle();
-        $('.profile-p').toggle();
-        $('.avatar').toggle();
     });
 });

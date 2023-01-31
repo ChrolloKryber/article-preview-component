@@ -80,7 +80,14 @@ body {
     margin: 0 0 0 auto;
     font-size: 1.5rem;
     z-index: 1;
+    background: var(--GrayishBlue);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    
 }
+
 
 .footer {
     position: absolute;
@@ -110,3 +117,30 @@ body {
     padding: 0 10px;
 }
 
+
+@media (min-width:768px) {
+    .card {
+        max-width: 70%;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    #image-component {
+        width: 45%;
+    }
+
+    #text-component {
+        width: 50%;
+    }
+
+    .drawer-image {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .avatar {
+        width: 10%;
+    }
+}
