@@ -81,7 +81,6 @@ body {
     font-size: 1.5rem;
     z-index: 1;
     background: var(--GrayishBlue);
-    color: white;
     height: 50px;
     width: 50px;
     border-radius: 50px;
@@ -119,10 +118,13 @@ body {
     padding: 0 10px;
 }
 
+.button-pressed {
+    background-color: var(--LightGrayishBlue);
+}
 
 @media (min-width:768px) {
     .card {
-        max-width: 70%;
+        max-width: 50%;
         flex-direction: row;
         height: auto;
         justify-content: space-between;
@@ -131,12 +133,15 @@ body {
     #image-component {
         width: 45%;
     }
-
+    
     #text-component {
-        width: 50%;
+        width: 55%;
+        height: 100%;
+        padding-left: 5%;
     }
 
     .drawer-image {
+        height: 100fr;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
@@ -144,5 +149,13 @@ body {
 
     .avatar {
         width: 10%;
+    }
+
+    .footer {
+        height: 30px;
+        width: 55%;
+        bottom: 0;
+        right: 0;
+        border-bottom-left-radius: 0;
     }
 }
